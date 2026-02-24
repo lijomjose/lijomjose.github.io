@@ -3,35 +3,39 @@ title = "Lijo M. Jose"
 theme = "PaperMod"
 
 [params]
-  author = "Lijo M. Jose"
-  description = "Algorithms & Structural Graph Theory Researcher | Assistant Professor | MIT Bangalore"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  defaultTheme = "auto"
+author = "Lijo M. Jose"
+description = "Algorithms & Structural Graph Theory Researcher | Assistant Professor | MIT Bangalore"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+defaultTheme = "auto"
 
 [menu]
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
 
-  [[menu.main]]
-    identifier = "research"
-    name = "Research"
-    url = "/research/"
-    weight = 2
+[[menu.main]]
+identifier = "research"
+name = "Research"
+url = "/research/"
+weight = 2
 
-  [[menu.main]]
-    identifier = "teaching"
-    name = "Teaching"
-    url = "/teaching/"
-    weight = 3
+[[menu.main]]
+identifier = "teaching"
+name = "Teaching"
+url = "/teaching/"
+weight = 3
 
-  [[menu.main]]
-    identifier = "articles"
-    name = "Articles"
-    url = "/posts/"
-    weight = 4
+[[menu.main]]
+identifier = "articles"
+name = "Articles"
+url = "/posts/"
+weight = 4
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true

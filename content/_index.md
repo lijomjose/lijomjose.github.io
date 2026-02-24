@@ -7,12 +7,15 @@ draft: false
 
 <div class="hero-text">
 
-# I Think in Structure.
+# Hi!.
 
-Algorithms are consequences.
+I am a father to a beautiful daughter,  
+a husband to a patient and wonderful wife,  
+a son to a strong father and a loving mother, a friend and student for lifetime
 
-I work on graphs, domination, partitions,  
-and the quiet elegance of structure.
+I love to teach and code. 
+
+And most days, I am simply trying to understand why things work.
 
 </div>
 
@@ -24,29 +27,58 @@ and the quiet elegance of structure.
 
 ---
 
-Welcome to a place where proofs meet implementation,  
-and structure occasionally wins over brute force.
+
+My doctoral work was in structural graph theory,
+where I spent several years studying domination in planar graphs
+and proving results around open questions in the area.
+
+I have always enjoyed the clarity of a good proof: 
+when an argument finally fits together
+and a difficult problem becomes understandable.
+
+But my curiosity does not end with proving results.
+I am equally interested in what happens when ideas move beyond theory:
+when they are translated into algorithms,
+implemented, and tested in practice.
+
+Over time, my interests have broadened,
+not by moving away from theory,
+but by applying the same way of thinking to different questions.
+
+I also find myself drawn to other areas that are rooted in theory,
+especially where new models of computation are being explored.
+For now, these are curiosities rather than commitments, 
+but I am always interested in understanding how things work at a deeper level.
+
+I was fortunate to work with a mentor who shaped not only my research,
+but my way of thinking.
+He valued rigor over visibility,
+clarity over complexity,
+and carried himself with a quiet humility that left a lasting impression on me.
 
 ---
 
 ## 🧠 Research
 
-Structural graph theory, domination variants,  
-and translating structural results into efficient algorithms.
+My research explores structural properties of graphs,  
+dominating sets and their variations,  
+and how theoretical insight can lead to efficient algorithms.
 
-Explore → [Research](/research)
+More → [Research](/research)
 
 ---
 
 ## 🎓 Teaching
 
-I design courses around problems, not slides.
+I enjoy teaching because it forces clarity.
 
-Simulation over memorization.  
-Understanding over repetition.
+I prefer problems over slides,  
+reasoning over memorization,  
+and questions over quick conclusions.
 
-See → [Teaching](/teaching)
+More → [Teaching](/teaching)
 
 ---
 
-> “If the structure is right, the algorithm almost writes itself.”
+If you are here for a formal CV, you will find it.  
+If you are here for ideas, you will find those too.
