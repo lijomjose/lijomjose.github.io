@@ -1,9 +1,9 @@
 baseURL = "https://lijomjose.github.io/"
-title = "Dr. Lijo M. Jose"
+title = "Lijo M. Jose"
 theme = "PaperMod"
 
 [params]
-  author = "Dr. Lijo M. Jose"
+  author = "Lijo M. Jose"
   description = "Algorithms & Structural Graph Theory Researcher | Assistant Professor | MIT Bangalore"
   ShowReadingTime = true
   ShowShareButtons = true
