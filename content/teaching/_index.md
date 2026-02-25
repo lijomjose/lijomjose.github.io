@@ -1,7 +1,13 @@
 
 # Teaching
 
-## Teaching Philosophy
+<div style="margin-bottom: 40px;">
+  <img src="/images/teaching-banner.png"
+       alt="The important thing is not to stop questioning - Albert Einstein"
+       style="width:100%; border-radius:12px;">
+</div>
+
+## Philosophy
 
 I love to teach.
 

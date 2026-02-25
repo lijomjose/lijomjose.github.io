@@ -41,16 +41,16 @@ I am equally interested in what happens when ideas move beyond theory:
 when they are translated into algorithms,
 implemented, and tested in practice.
 
-Over time, my interests have broadened,
+Over time, my interests are broadening,
 not by moving away from theory,
 but by applying the same way of thinking to different questions.
 
-I also find myself drawn to other areas that are rooted in theory,
+Lately, I also find myself drawn to other areas that are rooted in theory,
 especially where new models of computation are being explored.
 For now, these are curiosities rather than commitments, 
 but I am always interested in understanding how things work at a deeper level.
 
-I was fortunate to work with a mentor who shaped not only my research,
+I was fortunate to work with a great mentor (Dr. Deepak Rajendraprasad) who shaped not only my research,
 but my way of thinking.
 He valued rigor over visibility,
 clarity over complexity,
@@ -80,5 +80,4 @@ More → [Teaching](/teaching)
 
 ---
 
-If you are here for a formal CV, you will find it.  
-If you are here for ideas, you will find those too.
+If you are here for a formal CV, you can find it here [Resume](/resume).  
