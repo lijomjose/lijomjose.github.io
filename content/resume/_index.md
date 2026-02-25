@@ -58,10 +58,10 @@ Thesis: *Dominating Sets and its Variations in Planar Graphs*
 Awarded: June 2025  
 
 **M.Tech. in Computer Science**  
-Govt. Engineering College, Thrissur  
+Govt. Engineering College, Thrissur  (Calicut University)
 
 **B.Tech. in Information Technology**  
-Amal Jyothi College of Engineering  
+Amal Jyothi College of Engineering, Kanjirapally  (MG University)
 
 ---
 
