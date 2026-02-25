@@ -36,9 +36,9 @@ style="width:250px; border-radius:8px; border:1px solid #444;">
 
 ## Academic Profile
 
-Researcher in structural graph theory with focus on domination and related parameters in planar graphs.  
-Interested in understanding how structural insights translate into algorithmic consequences.  
-Committed to teaching as an intellectual practice, not merely a profession.
+My doctoral work focused on domination in planar graphs within structural graph theory. More broadly, I am interested in modeling problems theoretically, uncovering the structure beneath complexity, and understanding how that structure leads to efficient algorithms.
+
+Teaching is a passion for me. I believe in building curiosity in students and encouraging them to ask why. That, to me, matters most.
 
 ---
 
@@ -67,10 +67,9 @@ Amal Jyothi College of Engineering
 
 ## Research Interests
 
-- Structural Graph Theory  
-- Domination in Planar Graphs  
-- Algorithm Design and Analysis  
-- Translating Theoretical Results into Efficient Implementations  
+- Graph Theory  
+- Algorithm
+- Data Structures
 
 ---
 
@@ -109,11 +108,11 @@ IEEE SAPIENCE, 2016
 
 ## Teaching Experience
 
-- Assistant Professor, MIT Bangalore  
-- Assistant Professor, G.B.P.U.A & T., Pantnagar  
-- Assistant Professor, Institute of Technology, Gopeshwar  
-- Teaching Assistant, IIT Palakkad  
-- Assistant Professor, IHRD College of Applied Science  
+- Assistant Professor, MIT Bangalore (March 2025 - present)  
+- Assistant Professor (TEQIP) , G.B.P.U.A & T., Pantnagar  (Sept 2018 - Dec 2019)
+- Assistant Professor (TEQIP), Institute of Technology, Gopeshwar  (Jan 2018 - Aug 2018)
+- Teaching Assistant, IIT Palakkad  (July 2017 - Jan 2018)
+- Assistant Professor, IHRD College of Applied Science  (Jun 2016 - March 2017)
 
 ---
 
