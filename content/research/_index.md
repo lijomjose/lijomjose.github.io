@@ -3,7 +3,6 @@ title: "Research"
 draft: false
 ---
 
-# Research
 
 ## Research Outlook
 
