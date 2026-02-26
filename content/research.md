@@ -63,8 +63,6 @@ One approach to increasing the lifetime of a wireless sensor network is to ident
 
 ---
 
-### A Structural Formulation
-
 Let $G = (V, E)$ be a vertex-weighted graph with weight function  
 $w : V \to \mathbb{R}_{>0}$.
 
@@ -78,9 +76,11 @@ $$
 \sum_{i=1}^{k} W(D_i).
 $$
 
----
 
 This formulation captures the intuition that the lifetime of each active set is limited by its weakest (lowest-weight) vertex, and the overall network lifetime depends on how well such sets can be structured.
+
+---
+
 At the same time, I have been thinking about more foundational computational questions. For example, thinking about how uncertainty in emerging computational paradigms might interact with structural reasoning and algorithm design. These reflections are exploratory and conceptual at present rather than formal projects.
 
 I prefer not to rush toward a defined label or direction. I am more interested in identifying a problem that is structurally meaningful and intellectually honest — one where theory and computation genuinely inform each other. 
