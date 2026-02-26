@@ -1,6 +1,7 @@
 ---
 title: ""
 draft: false
+math: true
 ---
 
 <div class="hero">

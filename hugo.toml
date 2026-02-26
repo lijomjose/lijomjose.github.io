@@ -1,5 +1,6 @@
 baseURL = "https://lijomjose.github.io/"
 title = "Lijo M. Jose"
+languageCode = "en_us"
 theme = "PaperMod"
 
 [params]
@@ -38,6 +39,6 @@ url = "/teaching/"
 weight = 3
 
 [markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-unsafe = true
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
