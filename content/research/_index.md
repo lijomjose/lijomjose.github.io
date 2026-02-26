@@ -64,19 +64,18 @@ One approach to increasing the lifetime of a wireless sensor network is to ident
 
 ### A Structural Formulation
 
-Let \( G = (V, E) \) be a vertex-weighted graph with weight function  
-\( w : V \to \mathbb{R}_{>0} \).
+Let $G = (V, E)$ be a vertex-weighted graph with weight function  
+$w : V \to \mathbb{R}_{>0}$.
 
-For any dominating set \( D \subseteq V \), define its weight  
-\( W(D) \) as the minimum vertex weight in \( D \).
+For any dominating set $D \subseteq V$, define its weight  
+$W(D)$ as the minimum vertex weight in $D$.
 
-The objective is to find a collection of pairwise disjoint dominating sets  
-\( D_1, D_2, \dots, D_k \) that maximizes
+The objective is to find pairwise disjoint dominating sets  
+$D_1, D_2, \dots, D_k$ that maximize
 
-\[
+$$
 \sum_{i=1}^{k} W(D_i).
-\]
-
+$$
 ---
 
 This formulation captures the intuition that the lifetime of each active set is limited by its weakest (lowest-weight) vertex, and the overall network lifetime depends on how well such sets can be structured.
