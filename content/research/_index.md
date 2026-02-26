@@ -36,18 +36,18 @@ The thesis addressed three main problems.
 
 Our research in this domain began with the examination of a conjecture proposed by Goddard and Henning  in 2017. They conjectured that if \( G \) is a planar triangulation of order at least four, then there exist at least two disjoint total dominating sets in \( G \). Furthermore, they hypothesized that the
 same might hold for triangulated discs with a minimum degree of at least three. We confirmed both these conjectures by proving a slightly stronger result
-This work was published in the *Journal of Graph Theory (2024)*.
+This work was published in the [Journal of Graph Theory (2024)](https://onlinelibrary.wiley.com/doi/abs/10.1002/jgt.23014).
 
 ### 2. Face-Hitting Dominating Sets
 A set of vertices \( S \) in a plane graph **G** is called a face-hitting set if every face in \( G \) has at least one vertex from \( S \) in its boundary. We proved that the vertex-set of every plane (multi-)graph without isolated vertices, self-loops or 2-faces can be partitioned into two disjoint sets so that both the sets are dominating and face-hitting
 
-This result was presented in *WG 2024* and won the best student paper award.
+This result was presented in [WG 2024](https://link.springer.com/chapter/10.1007/978-3-031-75409-8_15) and won the best student paper award.
 
 ### 3. Independent Domination in Triangulations
 
 We proved that every planar triangulation on \( n \) vertices contains an independent dominating set of size at most \( n/3 \).
 
-This result was published in *Journal of Graph Theory (2025)*
+This result was published in [Journal of Graph Theory (2025)](https://onlinelibrary.wiley.com/doi/abs/10.1002/jgt.23285)
 
 ---
 

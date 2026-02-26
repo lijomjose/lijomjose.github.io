@@ -11,7 +11,7 @@ draft: false
 
 I am a father to a beautiful daughter,  
 a husband to a patient and wonderful wife,  
-a son to a strong father and a loving mother, a friend and student for lifetime
+a son to a strong father and a loving mother, a friend and a student for lifetime
 
 I love to teach and code. 
 
