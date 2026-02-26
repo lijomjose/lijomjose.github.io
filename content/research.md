@@ -77,6 +77,7 @@ $D_1, D_2, \dots, D_k$ that maximize
 $$
 \sum_{i=1}^{k} W(D_i).
 $$
+
 ---
 
 This formulation captures the intuition that the lifetime of each active set is limited by its weakest (lowest-weight) vertex, and the overall network lifetime depends on how well such sets can be structured.
