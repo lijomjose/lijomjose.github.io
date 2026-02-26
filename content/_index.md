@@ -10,8 +10,8 @@ draft: false
 # Hi!.
 
 I am a father to a beautiful daughter,  
-a husband to a patient and wonderful wife,  
-a son to a strong father and a loving mother, a friend and a student for lifetime
+a husband to a wonderful wife,  
+a son to a strong father and a loving mother, a brother, a friend and a student for lifetime
 
 I love to teach and code. 
 
