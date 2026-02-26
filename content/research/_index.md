@@ -54,10 +54,32 @@ This result was published in [Journal of Graph Theory (2025)](https://onlinelibr
 ## Current Work & Open Questions
 I am currently in an exploratory phase.
 
-I have been examining problems related to wireless sensor networks, particularly lifetime and resource allocation questions, because they translate naturally into structural graph-theoretic formulations. These directions are still in their early stages and have not yet crystallized into a well-defined research program. Yet I find this problem quite intriguing. To increase the life time of WSN one method followed is to identify the dijoint dominating sets and activate one at a time. This problem can nicely translate into a solid theorotical problem worth exploring.
+I have been examining problems related to wireless sensor networks, particularly lifetime and resource allocation questions. These problems are interesting to me because they translate naturally into structural graph-theoretic formulations.
 
-*Let \(G=(V,E)\) be a vertex-weighted graph with weight function \( w: V->R>0 \). For any dominating set \(D ⊆ V\) the set weight \(W(D)\) is defined as the weight of the vertex with least weight in \(D\). The aim is to find a set of disjoint dominating sets that maximizes the sum of the set weights.* 
+At present, this direction is still in its early stages and has not yet developed into a fully defined research program. Nevertheless, I find the underlying question quite compelling.
 
+One approach to increasing the lifetime of a wireless sensor network is to identify disjoint dominating sets and activate them sequentially. This operational idea leads to a clean theoretical problem worth exploring:
+
+---
+
+### A Structural Formulation
+
+Let \( G = (V, E) \) be a vertex-weighted graph with weight function  
+\( w : V \to \mathbb{R}_{>0} \).
+
+For any dominating set \( D \subseteq V \), define its weight  
+\( W(D) \) as the minimum vertex weight in \( D \).
+
+The objective is to find a collection of pairwise disjoint dominating sets  
+\( D_1, D_2, \dots, D_k \) that maximizes
+
+\[
+\sum_{i=1}^{k} W(D_i).
+\]
+
+---
+
+This formulation captures the intuition that the lifetime of each active set is limited by its weakest (lowest-weight) vertex, and the overall network lifetime depends on how well such sets can be structured.
 At the same time, I have been thinking about more foundational computational questions. For example, thinking about how uncertainty in emerging computational paradigms might interact with structural reasoning and algorithm design. These reflections are exploratory and conceptual at present rather than formal projects.
 
 I prefer not to rush toward a defined label or direction. I am more interested in identifying a problem that is structurally meaningful and intellectually honest — one where theory and computation genuinely inform each other. 
