@@ -54,7 +54,9 @@ This result was published in [Journal of Graph Theory (2025)](https://onlinelibr
 ## Current Work & Open Questions
 I am currently in an exploratory phase.
 
-I have been examining problems related to wireless sensor networks, particularly lifetime and resource allocation questions, because they translate naturally into structural graph-theoretic formulations. These directions are still in their early stages and have not yet crystallized into a well-defined research program.
+I have been examining problems related to wireless sensor networks, particularly lifetime and resource allocation questions, because they translate naturally into structural graph-theoretic formulations. These directions are still in their early stages and have not yet crystallized into a well-defined research program. Yet I find this problem quite intriguing. To increase the life time of WSN one method followed is to identify the dijoint dominating sets and activate one at a time. This problem can nicely translate into a solid theorotical problem worth exploring.
+
+*Let \(G=(V,E)\) be a vertex-weighted graph with weight function \( w: V->R>0 \). For any dominating set \(D ⊆ V\) the set weight \(W(D)\) is defined as the weight of the vertex with least weight in \(D\). The aim is to find a set of disjoint dominating sets that maximizes the sum of the set weights.* 
 
 At the same time, I have been thinking about more foundational computational questions. For example, thinking about how uncertainty in emerging computational paradigms might interact with structural reasoning and algorithm design. These reflections are exploratory and conceptual at present rather than formal projects.
 
