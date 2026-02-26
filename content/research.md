@@ -1,6 +1,7 @@
 ---
 title: "Research"
 draft: false
+math: true
 ---
 
 

@@ -11,7 +11,8 @@ ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 defaultTheme = "auto"
-
+[params.katex]
+enable = true
 [menu]
 
 [[menu.main]]
