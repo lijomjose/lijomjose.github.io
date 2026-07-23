@@ -45,35 +45,3 @@ But inside the room, I try to make it a place where curiosity is not rushed.
 
 To me, teaching is not the transfer of information.
 It is the careful cultivation of understanding.
-
----
-
-## Courses & Materials
-
-This section collects course-wise teaching materials, lecture notes, presentations, and longer writing projects.
-
-The material here is meant to evolve. Some items may be polished classroom resources, while others may be working drafts that are still being revised.
-
-### Main collections
-
-- [Unfinished Book](/teaching/books/unfinished-book/)  
-  A longer-form writing project collecting explanations, examples, and notes that may eventually grow into a book.
-
-- [Lecture Notes](/teaching/notes/lecture-notes/)  
-  Notes prepared for classroom teaching, revision, and student reference.
-
-- [Presentations](/teaching/presentations/)  
-  Slides and classroom presentation material.
-
-### Courses
-
-- [Programming](/teaching/courses/programming/)
-- [Data Structures](/teaching/courses/data-structures/)
-- [Algorithms](/teaching/courses/algorithms/)
-- [Graph Theory](/teaching/courses/graph-theory/)
-
----
-
-## How to use these materials
-
-Unless stated otherwise, these materials are shared for learning and teaching reference. Draft items should be treated as evolving documents and may change over time.
