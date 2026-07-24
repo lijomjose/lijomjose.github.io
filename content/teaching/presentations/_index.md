@@ -1,7 +1,10 @@
 ---
 title: "Presentations"
-draft: false
+draft: true
 math: true
+build:
+  render: never
+  list: never
 ---
 
 # Presentations

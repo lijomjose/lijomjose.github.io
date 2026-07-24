@@ -1,7 +1,10 @@
 ---
 title: "Lecture Notes"
-draft: false
+draft: true
 math: true
+build:
+  render: never
+  list: never
 ---
 
 # Lecture Notes

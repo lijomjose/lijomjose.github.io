@@ -1,7 +1,10 @@
 ---
 title: "Programming"
-draft: false
+draft: true
 math: true
+build:
+  render: never
+  list: never
 ---
 
 # Programming

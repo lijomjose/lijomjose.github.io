@@ -1,7 +1,10 @@
 ---
 title: "Algorithms"
-draft: false
+draft: true
 math: true
+build:
+  render: never
+  list: never
 ---
 
 # Algorithms

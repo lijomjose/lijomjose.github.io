@@ -1,7 +1,10 @@
 ---
 title: "Unfinished Book"
-draft: false
+draft: true
 math: true
+build:
+  render: never
+  list: never
 ---
 
 # Unfinished Book

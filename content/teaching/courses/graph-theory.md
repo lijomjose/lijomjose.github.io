@@ -1,7 +1,10 @@
 ---
 title: "Graph Theory"
-draft: false
+draft: true
 math: true
+build:
+  render: never
+  list: never
 ---
 
 # Graph Theory

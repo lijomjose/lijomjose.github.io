@@ -1,7 +1,10 @@
 ---
 title: "Data Structures"
-draft: false
+draft: true
 math: true
+build:
+  render: never
+  list: never
 ---
 
 # Data Structures
