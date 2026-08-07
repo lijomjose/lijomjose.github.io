@@ -39,6 +39,12 @@ name = "Teaching"
 url = "/teaching/"
 weight = 3
 
+[[menu.main]]
+identifier = "where-to-find-me"
+name = "Find Me"
+url = "/where-to-find-me/"
+weight = 5
+
 [markup]
 	[markup.goldmark]
 		[markup.goldmark.renderer]
