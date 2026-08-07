@@ -91,10 +91,6 @@ Francis, P., Illickan, A. M., Jose, L. M., Rajendraprasad, D.
 *Face-hitting dominating sets in planar graphs*  
 WG 2024 – International Workshop on Graph-Theoretic Concepts in Computer Science  
 
-Jose, L. M., Rahamathulla, K.  
-*A semantic graph based approach on interest extraction from user generated texts*  
-IEEE SAPIENCE, 2016  
-
 ---
 
 ## Awards & Recognition
