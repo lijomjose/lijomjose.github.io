@@ -45,6 +45,12 @@ name = "Find Me"
 url = "/where-to-find-me/"
 weight = 5
 
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "https://rising-beyond-ai.hashnode.dev/"
+weight = 6
+
 [markup]
 	[markup.goldmark]
 		[markup.goldmark.renderer]
