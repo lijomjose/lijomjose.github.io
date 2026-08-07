@@ -8,7 +8,7 @@ author = "Lijo M. Jose"
 description = "Researcher in Graph Theory and Algorithms | Teacher(Assitant Professor) | Manipal Instutute of Technology Bangalore | "
 math = true
 ShowReadingTime = true
-ShowShareButtons = true
+ShowShareButtons = false
 ShowPostNavLinks = true
 defaultTheme = "auto"
 [params.katex]
