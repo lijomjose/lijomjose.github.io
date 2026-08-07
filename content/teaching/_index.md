@@ -4,8 +4,6 @@ draft: false
 math: true
 ---
 
-# Teaching
-
 <div style="margin-bottom: 40px;">
   <img src="/images/teaching-banner.png"
        alt="The important thing is not to stop questioning - Albert Einstein"
