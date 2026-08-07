@@ -13,7 +13,7 @@ Contact:
 
 - Professional email: [lijo.mjose@manipal.edu](mailto:lijo.mjose@manipal.edu)
 - Personal email: [lmjfrancis@gmail.com](mailto:lmjfrancis@gmail.com)
-- Phone: [9544802611](tel:+919544802611)
+- Phone: [+91 9544802611](tel:+919544802611)
 - LinkedIn: [lijo-m-jose](https://www.linkedin.com/in/lijo-m-jose-438b5210a/)
 
 The floor layout below shows Faculty Zone 1. My cabin is highlighted in yellow.
