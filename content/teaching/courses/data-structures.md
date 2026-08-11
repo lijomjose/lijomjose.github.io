@@ -34,8 +34,8 @@ understand.
 </ul>
 <h4>Presentations</h4>
 <ul>
-<li><a href="https://canva.link/nknbzzn2knm03t2">Pointer Introduction Presentation on Canva</a></li>
-<li><a href="/materials/courses/data-structures/materials/presentations/The%20Map%20Beyond%20the%20Variables-1.pdf">The Map Beyond the Variables</a></li>
+<li><a href="https://canva.link/nknbzzn2knm03t2">The Map Beyond the Variables: Canva Presentation</a></li>
+<li><a href="/materials/courses/data-structures/materials/presentations/The%20Map%20Beyond%20the%20Variables-1.pdf">The Map Beyond the Variables: PDF</a></li>
 </ul>
 <h4>Practice Problems</h4>
 <ul>
