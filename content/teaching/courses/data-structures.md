@@ -35,12 +35,17 @@ understand.
       The most important reading for this module is the note on pointers and
       memory allocation.
     </p>
+    <h4>Notes</h4>
     <ul>
       <li>
         <a href="/materials/courses/data-structures/materials/notes/The-Whole-Point-of-Pointers.pdf">
           The Whole Point of Pointers
         </a>
       </li>
+    </ul>
+
+    <h4>Presentations</h4>
+    <ul>
       <li>
         <a href="https://canva.link/nknbzzn2knm03t2">
           Pointer Introduction Presentation on Canva
@@ -51,6 +56,10 @@ understand.
           The Map Beyond the Variables
         </a>
       </li>
+    </ul>
+
+    <h4>Practice Problems</h4>
+    <ul>
       <li>
         <a href="/materials/courses/data-structures/materials/practice-problems/array_story_practice_problems.pdf">
           Array Story Practice Problems

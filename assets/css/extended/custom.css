@@ -90,3 +90,12 @@ blockquote {
 .course-accordion-content p {
     margin-top: 0;
 }
+
+.course-accordion-content h4 {
+    margin: 16px 0 6px;
+    font-size: 0.95rem;
+}
+
+.course-accordion-content h4:first-of-type {
+    margin-top: 8px;
+}
