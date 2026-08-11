@@ -13,6 +13,22 @@ and indirection work, the later data structure topics become much easier to
 understand.
 
 <details class="course-accordion">
+  <summary>Lecture 0: Course Introduction</summary>
+  <div class="course-accordion-content">
+    <p>
+      Introductory presentation for the Data Structures course.
+    </p>
+    <ul>
+      <li>
+        <a href="https://canva.link/28gif096cug9xng">
+          Lecture 0 Presentation
+        </a>
+      </li>
+    </ul>
+  </div>
+</details>
+
+<details class="course-accordion">
   <summary>Module 1: C Recap, Pointers, and Memory Operations</summary>
   <div class="course-accordion-content">
     <p>
