@@ -70,6 +70,39 @@ blockquote {
     display: block;
 }
 
+.teaching-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 40px;
+    align-items: start;
+}
+
+.teaching-main h2,
+.teaching-sidebar h2 {
+    margin-top: 0;
+}
+
+.teaching-sidebar {
+    position: sticky;
+    top: 96px;
+    border-left: 1px solid var(--border);
+    padding-left: 22px;
+}
+
+.semester-nav h3 {
+    margin: 12px 0 8px;
+    font-size: 1rem;
+}
+
+.semester-nav ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.semester-nav li {
+    margin: 6px 0;
+}
+
 .course-accordion {
     margin: 20px 0 32px;
     border: 1px solid var(--border);
@@ -98,4 +131,19 @@ blockquote {
 
 .course-accordion-content h4:first-of-type {
     margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+    .teaching-layout {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .teaching-sidebar {
+        position: static;
+        grid-row: 1;
+        border-left: 0;
+        border-bottom: 1px solid var(--border);
+        padding: 0 0 20px;
+    }
 }
