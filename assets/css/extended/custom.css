@@ -69,3 +69,24 @@ blockquote {
     border-radius: 8px;
     display: block;
 }
+
+.course-accordion {
+    margin: 20px 0 32px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--entry);
+}
+
+.course-accordion summary {
+    cursor: pointer;
+    padding: 16px 18px;
+    font-weight: 700;
+}
+
+.course-accordion-content {
+    padding: 0 18px 18px;
+}
+
+.course-accordion-content p {
+    margin-top: 0;
+}
