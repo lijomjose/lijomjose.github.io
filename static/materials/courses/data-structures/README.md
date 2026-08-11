@@ -1,3 +1,18 @@
-# Data Structures course material
+# Data Structures Course Material
 
-Place data structures course files here.
+Use this folder for files served from:
+
+```text
+/materials/courses/data-structures/
+```
+
+Suggested organization:
+
+```text
+materials/
+  notes/
+  practice-problems/
+  presentations/
+  case-studies/
+  handouts/
+```

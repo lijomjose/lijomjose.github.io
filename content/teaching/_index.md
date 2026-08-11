@@ -65,7 +65,7 @@ understand.
     </p>
     <ul>
       <li>
-        <a href="/materials/courses/data-structures/The-Whole-Point-of-Pointers.pdf">
+        <a href="/materials/courses/data-structures/materials/notes/The-Whole-Point-of-Pointers.pdf">
           The Whole Point of Pointers
         </a>
       </li>
