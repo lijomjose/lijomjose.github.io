@@ -44,16 +44,3 @@ understand.
     </ul>
   </div>
 </details>
-
-## Topics
-
-- C recap
-- pointers and memory allocation
-- arrays and linked lists
-- stacks and queues
-- trees
-- binary search trees
-- heaps
-- hashing
-- graphs
-- complexity of operations
