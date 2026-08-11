@@ -1,33 +1,38 @@
 ---
 title: "Data Structures"
-draft: true
+draft: false
 math: true
-build:
-  render: never
-  list: never
 ---
 
 # Data Structures
 
-This page is for data structures material: explanations, lecture notes, worked examples, problem sets, and slides.
+This semester, I am teaching Data Structures. The first module is mostly a recap
+of C, but I treat pointers and memory operations as the central topic of the
+module. Once students are comfortable with how memory, addresses, allocation,
+and indirection work, the later data structure topics become much easier to
+understand.
 
-## Materials
+<details class="course-accordion">
+  <summary>Module 1: C Recap, Pointers, and Memory Operations</summary>
+  <div class="course-accordion-content">
+    <p>
+      The most important reading for this module is the note on pointers and
+      memory allocation.
+    </p>
+    <ul>
+      <li>
+        <a href="/materials/courses/data-structures/The-Whole-Point-of-Pointers.pdf">
+          The Whole Point of Pointers
+        </a>
+      </li>
+    </ul>
+  </div>
+</details>
 
-Add files under:
+## Topics
 
-```text
-static/materials/courses/data-structures/
-```
-
-Example links:
-
-```markdown
-- [Arrays and Linked Lists](/materials/courses/data-structures/arrays-linked-lists.pdf)
-- [Trees](/materials/courses/data-structures/trees.pdf)
-```
-
-## Topics to add
-
+- C recap
+- pointers and memory allocation
 - arrays and linked lists
 - stacks and queues
 - trees

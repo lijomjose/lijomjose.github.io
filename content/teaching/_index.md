@@ -46,13 +46,15 @@ It is the careful cultivation of understanding.
 
 ## Current Courses
 
-### Data Structures
+### [Data Structures](/teaching/courses/data-structures/)
 
 This semester, I am teaching Data Structures. The first module is mostly a recap
 of C, but I treat pointers and memory operations as the central topic of the
 module. Once students are comfortable with how memory, addresses, allocation,
 and indirection work, the later data structure topics become much easier to
 understand.
+
+[Open the Data Structures course page](/teaching/courses/data-structures/)
 
 <details class="course-accordion">
   <summary>Module 1: C Recap, Pointers, and Memory Operations</summary>
