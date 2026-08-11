@@ -41,6 +41,21 @@ understand.
           The Whole Point of Pointers
         </a>
       </li>
+      <li>
+        <a href="https://canva.link/nknbzzn2knm03t2">
+          Pointer Introduction Presentation on Canva
+        </a>
+      </li>
+      <li>
+        <a href="/materials/courses/data-structures/materials/presentations/The%20Map%20Beyond%20the%20Variables-1.pdf">
+          The Map Beyond the Variables
+        </a>
+      </li>
+      <li>
+        <a href="/materials/courses/data-structures/materials/practice-problems/array_story_practice_problems.pdf">
+          Array Story Practice Problems
+        </a>
+      </li>
     </ul>
   </div>
 </details>
