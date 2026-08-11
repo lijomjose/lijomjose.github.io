@@ -1,3 +1,8 @@
+/* Match page content width with the PaperMod header width. */
+:root {
+    --main-width: var(--nav-width);
+}
+
 body {
     font-family: "Georgia", serif;
     line-height: 1.7;
