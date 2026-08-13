@@ -8,15 +8,13 @@ math: true
 
 <div class="hero-text">
 
-# Hi!.
+# Hi! I’m Lijo.
 
-I am a father to a beautiful daughter,  
-a husband to a wonderful wife,  
-a son to a strong father and a loving mother, a brother, a friend and a student for lifetime
+I teach computer science, write code, and spend what is probably an unreasonable amount of time asking why things work.
 
-I love to teach and code. 
+Away from titles and classrooms, I’m Appa to a wonderful little girl and husband to my favourite person. I’m also a son, brother, and friend and, through it all, a lifelong student.
 
-And most days, I am simply trying to understand why things work.
+Much of what I’m curious about still puzzles me. I’m simply enjoying making a little more sense of things as I go.
 
 </div>
 
