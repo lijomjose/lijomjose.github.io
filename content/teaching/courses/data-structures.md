@@ -43,3 +43,22 @@ understand.
 </ul>
 </div>
 </details>
+
+<details class="course-accordion">
+<summary>Module 2: Singly Linked Lists</summary>
+<div class="course-accordion-content">
+<p>Follow the linked-list journey from its foundations through the operations that make a singly linked list dynamic.</p>
+<h4>Notes</h4>
+<ul>
+<li><a href="/materials/courses/data-structures/materials/notes/Mapping-Uncertainty-Part-One.pdf">Mapping Uncertainty, Part One: One Link at a Time</a></li>
+<li><a href="/materials/courses/data-structures/materials/notes/Mapping-Uncertainty-Part-Two.pdf">Mapping Uncertainty, Part Two: When the Map Refuses to Stay Still</a></li>
+</ul>
+<h4>Presentations</h4>
+<ul>
+<li><a href="https://canva.link/4y7cueszxhvnhzl">Part 1: Beyond the Signal — SLL Foundations (Canva)</a></li>
+<li><a href="/materials/courses/data-structures/materials/presentations/Beyond-the-Signal-SLL-Foundations.pdf">Part 1: Beyond the Signal — SLL Foundations (PDF)</a></li>
+<li><a href="https://canva.link/grvr5phfeaxmvrb">Part 2: Rewiring the Route — SLL Operations (Canva)</a></li>
+<li><a href="/materials/courses/data-structures/materials/presentations/Rewiring-the-Route-SLL-Operations.pdf">Part 2: Rewiring the Route — SLL Operations (PDF)</a></li>
+</ul>
+</div>
+</details>
