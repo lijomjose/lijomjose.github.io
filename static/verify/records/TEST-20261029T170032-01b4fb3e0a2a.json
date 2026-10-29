@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "TEST-20261029T170032-01b4fb3e0a2a",
+  "signer": "SignTrace setup test",
+  "document": "SignTrace automatic publication test - not an issued document",
+  "place": "Setup test",
+  "registered_at": "2026-10-29T17:00:32+05:30",
+  "status": "registered",
+  "verification_url": "https://lijomjose.github.io/verify/?id=TEST-20261029T170032-01b4fb3e0a2a",
+  "sha256": null,
+  "hash_registered_at": null
+}

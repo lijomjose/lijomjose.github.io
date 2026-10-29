@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Signature registration | SignTrace</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="verify.js" defer></script>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">SignTrace</p>
+    <h1>Signature registration</h1>
+    <p id="message" role="status">Open the QR link on the document to view its record.</p>
+    <section id="record" hidden aria-label="Registration details">
+      <dl id="details"></dl>
+      <p>Compare the signer, document name, date, place, and ID with the document in front of you.</p>
+      <p>This is a publisher-maintained registration record. It is not a certificate-based digital signature or an independent identity check. The registration time comes from the creator's computer.</p>
+      <h2>Check a file fingerprint</h2>
+      <p id="hash-note"></p>
+      <label for="file">Choose the exact final file to compare. The file stays in your browser.</label>
+      <input id="file" type="file" disabled>
+      <p id="hash-result" role="status"></p>
+    </section>
+  </main>
+</body>
+</html>
