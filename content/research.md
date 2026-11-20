@@ -55,13 +55,9 @@ This result was published in [Journal of Graph Theory (2025)](https://onlinelibr
 ## Current Work & Open Questions
 I am currently in an exploratory phase.
 
-### Exploratory Interest: Teaching Theoretical Computer Science in the Generative AI Era
+One of the directions I am exploring is how teaching might evolve in a world shaped by generative AI and the technologies that follow, especially in theoretical computer science, algorithms, and programming. When information and generated answers are easy to obtain, what should learners practise, understand, and be able to explain for themselves? I am interested in approaches that put curiosity, intuition, problem framing, prediction, and reasoning in the foreground, while using AI thoughtfully in the learning process. My Data Structures course is one place where I am trying this: Caitlyn follows a story, learners predict what might happen and trace the changing state, and formal structures and algorithms arrive when they help solve a problem.
 
-Alongside my research in graph theory, I am exploring how teaching and learning might be redesigned for a world shaped by generative AI and the technologies that follow, especially in theoretical computer science, algorithms, and programming. When information and generated answers are easy to obtain, what should learners practise, understand, and be able to explain for themselves?
-
-I am beginning to explore approaches that put curiosity, intuition, problem framing, prediction, and reasoning in the foreground, with AI used thoughtfully in the learning process. My Data Structures course is one place where I am trying this: Caitlyn follows a story, learners predict what might happen and trace the changing state, and formal structures and algorithms arrive when they help solve a problem. I see this as one example within a larger interest, not a settled model for future teaching.
-
-This remains exploratory rather than a defined research project. I have not yet conducted a study or drawn conclusions about which approaches work best. I am developing materials and considering how questions about learning, agency, and the role of AI might be investigated carefully across subjects and educational settings.
+This is an exploratory interest rather than a defined research project. I have not yet conducted a study or drawn conclusions about which approaches work best. I am developing materials and considering how questions about learning, agency, and the role of AI might be investigated carefully across subjects and educational settings.
 
 I have been examining problems related to wireless sensor networks, particularly lifetime and resource allocation questions. These problems are interesting to me because they translate naturally into structural graph-theoretic formulations.
 
