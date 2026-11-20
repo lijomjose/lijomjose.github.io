@@ -138,6 +138,59 @@ blockquote {
     margin-top: 8px;
 }
 
+/* The course keeps the site's reading layout and native keyboard-friendly details. */
+.ds-course .course-term {
+    color: var(--secondary);
+    font-size: 0.95rem;
+}
+
+.ds-course .course-accordion-content h3 {
+    margin: 24px 0 10px;
+    font-size: 1.1rem;
+}
+
+.ds-course li {
+    margin-block: 10px;
+    overflow-wrap: anywhere;
+}
+
+.ds-course .course-assignment,
+.ds-course .course-reference {
+    padding: 22px;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary);
+    border-radius: 8px;
+    margin: 24px 0;
+    scroll-margin-top: 24px;
+}
+
+.ds-course .course-assignment h3,
+.ds-course .course-reference h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+}
+
+.ds-course .course-primary-link {
+    font-weight: 700;
+}
+
+.ds-course .course-reference-index summary {
+    cursor: pointer;
+    font-weight: 700;
+    padding-block: 12px;
+}
+
+.ds-course summary:focus-visible,
+.ds-course a:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 4px;
+}
+
+.ds-course .course-closing {
+    margin-top: 32px;
+    font-style: italic;
+}
+
 @media (max-width: 768px) {
     .teaching-layout {
         grid-template-columns: 1fr;
