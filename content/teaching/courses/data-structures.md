@@ -19,9 +19,16 @@ build:
 <p><a href="https://canva.link/28gif096cug9xng">Course introduction (Canva)</a> · <a href="/materials/presentations/Lecture_1_Alfred_Batman_Collector_compressed-1.pdf">Open or download the complete 24-slide lecture (PDF)</a></p>
 </section>
 <script src="/js/alfred-lecture-carousel.js" defer></script>
+<script src="/js/course-module-carousel-data.js" defer></script>
+<script src="/js/course-module-carousels.js" defer></script>
 
-Caitlyn has worlds to explore, a rather unreliable map, and a habit of finding
-problems that a sword cannot solve. We have C. Between us, something should work.
+<section class="course-story-intro" aria-label="Meet Caitlyn">
+<div>
+<p>All semester, we’ll follow Caitlyn, a curious young explorer, as she sets off to discover new worlds and solve the problems she meets along the way. I was inspired by my daughter and her love of Dora the Explorer.</p>
+<p>Caitlyn has worlds to explore, a rather unreliable map, and a habit of finding problems that a sword cannot solve. We have C. Between us, something should work. Bring your curiosity; the next discovery is just around the corner.</p>
+</div>
+<img src="/images/teaching/data-structures/caitlyn-explorer.jpg" alt="Caitlyn exploring a mechanical device on her journey" loading="lazy">
+</section>
 
 But before we write a structure definition or memorise an operation, I want us to
 stay with the problem. What must we remember? What can change? Which route must
@@ -62,6 +69,14 @@ editable presentations and can be larger downloads.
 <ul>
 <li><a href="https://canva.link/nknbzzn2knm03t2">The Map Beyond the Variables (Canva)</a> · <a href="/materials/courses/data-structures/materials/presentations/The%20Map%20Beyond%20the%20Variables-1.pdf">PDF</a></li>
 </ul>
+<section class="lecture-carousel module-lecture-carousel" aria-label="The Map Beyond the Variables slides">
+<h4>The Map Beyond the Variables: let’s look at the first slide together</h4>
+<p>Come with me into Pointerra. Xara has a simple request: change her gold. Let’s see why passing a number may not be enough.</p>
+<div class="lecture-carousel-view" data-course-carousel="pointer" tabindex="0" aria-label="The Map Beyond the Variables slide carousel. Use the left and right arrow keys to change slides.">
+<figure><img src="/images/teaching/data-structures/pointer/slide-01.jpg" alt="The Map Beyond the Variables, slide 1" loading="lazy"><figcaption><strong>Slide 1</strong><span>Come with me into Pointerra. Xara has a simple request: change her gold. Let’s see why passing a number may not be enough.</span></figcaption></figure>
+<div class="lecture-carousel-controls"><button type="button" data-course-previous aria-label="Previous slide">Previous</button><span data-course-counter aria-live="polite">Slide 1 of 42</span><button type="button" data-course-next aria-label="Next slide">Next</button></div>
+</div>
+</section>
 <h3>Try it yourself</h3>
 <ul>
 <li><a href="/materials/courses/data-structures/materials/practice-problems/array_story_practice_problems.pdf">Array Story Practice Problems (PDF)</a></li>
@@ -82,6 +97,22 @@ editable presentations and can be larger downloads.
 <li><strong>Beyond the Signal: SLL foundations</strong> · <a href="https://canva.link/4y7cueszxhvnhzl">Canva</a> · <a href="/materials/courses/data-structures/materials/presentations/Beyond-the-Signal-SLL-Foundations.pdf">PDF</a></li>
 <li><strong>Rewiring the Route: SLL operations</strong> · <a href="https://canva.link/grvr5phfeaxmvrb">Canva</a> · <a href="/materials/courses/data-structures/materials/presentations/Rewiring-the-Route-SLL-Operations.pdf">PDF</a></li>
 </ul>
+<section class="lecture-carousel module-lecture-carousel" aria-label="Beyond the Signal: SLL Foundations slides">
+<h4>Beyond the Signal: SLL Foundations: let’s look at the first slide together</h4>
+<p>Caitlyn has one coordinate and no complete map. Before naming a linked list, let’s ask how she can keep moving without knowing the whole route.</p>
+<div class="lecture-carousel-view" data-course-carousel="linked" tabindex="0" aria-label="Beyond the Signal: SLL Foundations slide carousel. Use the left and right arrow keys to change slides.">
+<figure><img src="/images/teaching/data-structures/linked/slide-01.jpg" alt="Beyond the Signal: SLL Foundations, slide 1" loading="lazy"><figcaption><strong>Slide 1</strong><span>Caitlyn has one coordinate and no complete map. Before naming a linked list, let’s ask how she can keep moving without knowing the whole route.</span></figcaption></figure>
+<div class="lecture-carousel-controls"><button type="button" data-course-previous aria-label="Previous slide">Previous</button><span data-course-counter aria-live="polite">Slide 1 of 36</span><button type="button" data-course-next aria-label="Next slide">Next</button></div>
+</div>
+</section>
+<section class="lecture-carousel module-lecture-carousel" aria-label="Rewiring the Route: SLL Operations slides">
+<h4>Rewiring the Route: SLL Operations: let’s look at the first slide together</h4>
+<p>The route exists. Now it changes. Make a prediction before we move a link; the old route is remarkably easy to lose.</p>
+<div class="lecture-carousel-view" data-course-carousel="rewiring" tabindex="0" aria-label="Rewiring the Route: SLL Operations slide carousel. Use the left and right arrow keys to change slides.">
+<figure><img src="/images/teaching/data-structures/rewiring/slide-01.jpg" alt="Rewiring the Route: SLL Operations, slide 1" loading="lazy"><figcaption><strong>Slide 1</strong><span>The route exists. Now it changes. Make a prediction before we move a link; the old route is remarkably easy to lose.</span></figcaption></figure>
+<div class="lecture-carousel-controls"><button type="button" data-course-previous aria-label="Previous slide">Previous</button><span data-course-counter aria-live="polite">Slide 1 of 50</span><button type="button" data-course-next aria-label="Next slide">Next</button></div>
+</div>
+</section>
 <p><strong>Before moving on:</strong> insert a node between two others on paper. After the first pointer assignment, can you still reach every node you need? The compiler will not check whether your map still makes sense.</p>
 </div>
 </details>
@@ -95,6 +126,14 @@ editable presentations and can be larger downloads.
 <h3>Stacks: the way back has an order</h3>
 <ul>
 <li><strong>The Last Door Home</strong> · <a href="/materials/courses/data-structures/materials/presentations/Stacks-The-Last-Door-Home.pdf">PDF</a> · <a href="/materials/courses/data-structures/materials/presentations/Stacks-The-Last-Door-Home.pptx">PPTX</a></li>
+<section class="lecture-carousel module-lecture-carousel" aria-label="The Last Door Home: Stacks slides">
+<h4>The Last Door Home: Stacks: let’s look at the first slide together</h4>
+<p>Caitlyn has to find her way home and resume the work she left behind. What should she remember, and in what order?</p>
+<div class="lecture-carousel-view" data-course-carousel="stack" tabindex="0" aria-label="The Last Door Home: Stacks slide carousel. Use the left and right arrow keys to change slides.">
+<figure><img src="/images/teaching/data-structures/stack/slide-01.jpg" alt="The Last Door Home: Stacks, slide 1" loading="lazy"><figcaption><strong>Slide 1</strong><span>Caitlyn has to find her way home and resume the work she left behind. What should she remember, and in what order?</span></figcaption></figure>
+<div class="lecture-carousel-controls"><button type="button" data-course-previous aria-label="Previous slide">Previous</button><span data-course-counter aria-live="polite">Slide 1 of 31</span><button type="button" data-course-next aria-label="Next slide">Next</button></div>
+</div>
+</section>
 <li><strong>Parenthesis matching and balancing: follow the stack trace</strong> · <a href="/materials/courses/data-structures/materials/presentations/Parenthesis-Matching-v6.pdf">PDF</a> · <a href="/materials/courses/data-structures/materials/presentations/Parenthesis-Matching-v6.pptx">PPTX</a></li>
 <li><strong>Expression conversion and evaluation: the complete lecture</strong> · <a href="/materials/courses/data-structures/materials/presentations/Expression-Evaluation-Complete.pdf">PDF</a> · <a href="/materials/courses/data-structures/materials/presentations/Expression-Evaluation-Complete.pptx">PPTX</a></li>
 <li><strong>Infix to prefix: a more detailed conversion walkthrough</strong> · <a href="/materials/courses/data-structures/materials/presentations/Infix-to-Prefix-Detailed.pptx">PPTX</a></li>
@@ -103,6 +142,14 @@ editable presentations and can be larger downloads.
 <h3>Queues: one command at a time</h3>
 <ul>
 <li><strong>Lecture 1: One Command at a Time — the device interface</strong> · <a href="/materials/courses/data-structures/materials/presentations/Queues-1-Device-Interfaces-v3.pdf">PDF</a> · <a href="/materials/courses/data-structures/materials/presentations/Queues-1-Device-Interfaces-v3.pptx">PPTX</a></li>
+<section class="lecture-carousel module-lecture-carousel" aria-label="One Command at a Time: Queues slides">
+<h4>One Command at a Time: Queues: let’s look at the first slide together</h4>
+<p>Caitlyn’s command device offers every operation in the linked-list handbook. Helpful? Let’s see what can go wrong when a command jumps the queue.</p>
+<div class="lecture-carousel-view" data-course-carousel="queue" tabindex="0" aria-label="One Command at a Time: Queues slide carousel. Use the left and right arrow keys to change slides.">
+<figure><img src="/images/teaching/data-structures/queue/slide-01.jpg" alt="One Command at a Time: Queues, slide 1" loading="lazy"><figcaption><strong>Slide 1</strong><span>Caitlyn’s command device offers every operation in the linked-list handbook. Helpful? Let’s see what can go wrong when a command jumps the queue.</span></figcaption></figure>
+<div class="lecture-carousel-controls"><button type="button" data-course-previous aria-label="Previous slide">Previous</button><span data-course-counter aria-live="polite">Slide 1 of 20</span><button type="button" data-course-next aria-label="Next slide">Next</button></div>
+</div>
+</section>
 <li><strong>Lecture 2: Room for the Next Command — linked, linear, multiple, and circular queues</strong> · <a href="/materials/courses/data-structures/materials/presentations/Queues-2-Readable-Code-v2.pdf">PDF</a> · <a href="/materials/courses/data-structures/materials/presentations/Queues-2-Readable-Code-v2.pptx">PPTX</a></li>
 <li><strong>Lecture 3: Which End? Which Command? — deques and priority queues</strong> · <a href="/materials/courses/data-structures/materials/presentations/Queues-3-Readable-Code-v2.pdf">PDF</a> · <a href="/materials/courses/data-structures/materials/presentations/Queues-3-Readable-Code-v2.pptx">PPTX</a></li>
 <li><a href="/materials/courses/data-structures/materials/code/Queue-Lectures-Code-and-Traces-v2.zip">Queue lectures 2–3: readable C programs and traces (ZIP)</a> — predict a small example before running it, then compare your trace with the program.</li>
@@ -118,6 +165,14 @@ editable presentations and can be larger downloads.
 <h3>Begin with the exploration map</h3>
 <ul>
 <li><strong>Lecture 1: The Map Beyond Home — general trees, binary trees, and their representations</strong> · <a href="/materials/courses/data-structures/materials/presentations/Trees-The-Map-Beyond-Home.pptx">PPTX</a></li>
+<section class="lecture-carousel module-lecture-carousel" aria-label="The Map Beyond Home: Trees slides">
+<h4>The Map Beyond Home: Trees: let’s look at the first slide together</h4>
+<p>Home has one portal. Marine has several. Where should Caitlyn put each new discovery on her map? Let’s build the answer before naming it.</p>
+<div class="lecture-carousel-view" data-course-carousel="tree" tabindex="0" aria-label="The Map Beyond Home: Trees slide carousel. Use the left and right arrow keys to change slides.">
+<figure><img src="/images/teaching/data-structures/tree/slide-01.jpg" alt="The Map Beyond Home: Trees, slide 1" loading="lazy"><figcaption><strong>Slide 1</strong><span>Home has one portal. Marine has several. Where should Caitlyn put each new discovery on her map? Let’s build the answer before naming it.</span></figcaption></figure>
+<div class="lecture-carousel-controls"><button type="button" data-course-previous aria-label="Previous slide">Previous</button><span data-course-counter aria-live="polite">Slide 1 of 21</span><button type="button" data-course-next aria-label="Next slide">Next</button></div>
+</div>
+</section>
 </ul>
 <p>The chapter continues in class through traversals, binary search trees, threaded trees, and balancing with AVL and red-black trees. The quick-reference section below has the corresponding codebook chapters for revision after these ideas are understood.</p>
 <p><strong>Before moving on:</strong> draw the same tree using array positions and linked nodes. Which relationships are obvious in each representation? Then trace a traversal without looking at its code.</p>

@@ -145,6 +145,37 @@ blockquote {
     font-size: 0.95rem;
 }
 
+.ds-course .course-story-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(150px, 220px);
+    align-items: center;
+    gap: 24px;
+    margin: 28px 0;
+}
+
+.ds-course .course-story-intro p:last-child {
+    margin-bottom: 0;
+}
+
+.ds-course .course-story-intro img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ds-course .module-lecture-carousel {
+    margin-block: 24px;
+}
+
+@media (max-width: 520px) {
+    .ds-course .course-story-intro {
+        grid-template-columns: minmax(0, 1fr) 110px;
+        gap: 14px;
+    }
+}
+
 .ds-course .course-accordion-content h3 {
     margin: 24px 0 10px;
     font-size: 1.1rem;

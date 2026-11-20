@@ -68,7 +68,7 @@
   }
   function restartTimer() {
     window.clearInterval(timer);
-    timer = window.setInterval(() => show(current + 1), 10000);
+    timer = window.setInterval(() => show(current + 1), 20000);
   }
   previous.addEventListener("click", () => { show(current - 1); restartTimer(); });
   next.addEventListener("click", () => { show(current + 1); restartTimer(); });
