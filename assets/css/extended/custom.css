@@ -191,6 +191,85 @@ blockquote {
     font-style: italic;
 }
 
+.ds-course .lecture-carousel {
+    margin: 24px 0;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--entry);
+}
+
+.ds-course .lecture-carousel h3 {
+    margin-top: 0;
+}
+
+.lecture-carousel-view {
+    max-width: 780px;
+    margin: 18px auto;
+}
+
+.lecture-carousel-view:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 6px;
+}
+
+.lecture-carousel-view figure {
+    margin: 0;
+}
+
+.lecture-carousel-view img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background: #111;
+    border-radius: 6px;
+}
+
+.lecture-carousel-view figcaption {
+    display: grid;
+    gap: 6px;
+    padding: 14px 2px 6px;
+}
+
+.lecture-carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.lecture-carousel-controls button {
+    min-height: 44px;
+    padding: 8px 16px;
+    color: var(--primary);
+    background: var(--theme);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    font: inherit;
+}
+
+.lecture-carousel-controls button:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 3px;
+}
+
+@media (max-width: 520px) {
+    .ds-course .lecture-carousel {
+        padding: 14px;
+    }
+
+    .lecture-carousel-controls {
+        gap: 8px;
+    }
+
+    .lecture-carousel-controls button {
+        padding-inline: 10px;
+    }
+}
+
 @media (max-width: 768px) {
     .teaching-layout {
         grid-template-columns: 1fr;
