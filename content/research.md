@@ -55,11 +55,13 @@ This result was published in [Journal of Graph Theory (2025)](https://onlinelibr
 ## Current Work & Open Questions
 I am currently in an exploratory phase.
 
-### Exploratory Interest: Intuition-First Data Structures Teaching
+### Exploratory Interest: Teaching and Learning in the Generative AI Era
 
-Alongside my research in graph theory, I am exploring how to teach data structures through a story that gives each idea a reason to exist. In my course, Caitlyn follows clues through an unfamiliar world; learners make predictions, trace what changes, and meet a formal structure only after they have felt the problem it helps solve.
+Alongside my research in graph theory, I am exploring how teaching and learning might be redesigned for a world shaped by generative AI and the technologies that follow. The question is broader than any one course: when information and generated answers are easy to obtain, what should learners practise, understand, and be able to explain for themselves?
 
-This is a pedagogical interest, not yet a defined research project. I am curious about how narrative, prediction, and visible state tracing might help students build intuition and explain their design choices. I have not yet conducted a study or drawn conclusions about their effectiveness. For now, I am developing the teaching materials and considering what questions could be investigated carefully.
+I am beginning to explore approaches that put curiosity, intuition, problem framing, prediction, and reasoning in the foreground, with AI used thoughtfully in the learning process. My Data Structures course is one place where I am trying this: Caitlyn follows a story, learners predict what might happen and trace the changing state, and formal structures arrive when they help solve a problem. I see this as one example within a larger interest, not a settled model for future teaching.
+
+This remains exploratory rather than a defined research project. I have not yet conducted a study or drawn conclusions about which approaches work best. I am developing materials and considering how questions about learning, agency, and the role of AI might be investigated carefully across subjects and educational settings.
 
 I have been examining problems related to wireless sensor networks, particularly lifetime and resource allocation questions. These problems are interesting to me because they translate naturally into structural graph-theoretic formulations.
 
