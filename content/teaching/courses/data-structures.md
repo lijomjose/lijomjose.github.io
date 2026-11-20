@@ -9,9 +9,16 @@ build:
 ---
 
 <div class="ds-course">
-<p class="course-term">CES 2101 · July 2026 semester</p>
-
-## A little less memorising. A little more wondering.
+<section class="lecture-carousel course-hero-carousel" aria-labelledby="alfred-carousel-title">
+<h2 id="alfred-carousel-title">Before the journey: Alfred, Batman, and the Collector’s Archive</h2>
+<p>Batman can find a criminal in a city. Finding one gadget in his own collection is apparently a more ambitious project. Alfred has had enough. Move through the slides, pause at each question, and make a prediction.</p>
+<div class="lecture-carousel-view" data-alfred-carousel tabindex="0" aria-label="Lecture slide carousel. Use the left and right arrow keys to change slides.">
+<figure><img src="/images/teaching/data-structures/alfred/slide-01.jpg" alt="Lecture slide 1: Welcome to the Batcave" loading="eager"><figcaption><strong>Welcome to the Batcave</strong><span>Today Batman needs a better archive. Before we name a data structure, let’s find out what has gone wrong.</span></figcaption></figure>
+<div class="lecture-carousel-controls"><button type="button" data-slide-previous aria-label="Previous slide">Previous</button><span data-slide-counter aria-live="polite">Slide 1 of 24</span><button type="button" data-slide-next aria-label="Next slide">Next</button></div>
+</div>
+<p><a href="https://canva.link/28gif096cug9xng">Course introduction (Canva)</a> · <a href="/materials/presentations/Lecture_1_Alfred_Batman_Collector_compressed-1.pdf">Open or download the complete 24-slide lecture (PDF)</a></p>
+</section>
+<script src="/js/alfred-lecture-carousel.js" defer></script>
 
 Caitlyn has worlds to explore, a rather unreliable map, and a habit of finding
 problems that a sword cannot solve. We have C. Between us, something should work.
@@ -42,23 +49,6 @@ editable presentations and can be larger downloads.
 <li><a href="https://canva.link/28gif096cug9xng">Lecture 0: course introduction (Canva)</a></li>
 <li><a href="/materials/presentations/Lecture_1_Alfred_Batman_Collector_compressed-1.pdf">Alfred, Batman, and the Collector’s Archive (PDF)</a></li>
 </ul>
-<section class="lecture-carousel" aria-labelledby="alfred-carousel-title">
-<h3 id="alfred-carousel-title">The Batcave is a mess. Let’s find out why.</h3>
-<p>Move through the lecture one slide at a time. Pause at each question and make a prediction before you continue.</p>
-<div class="lecture-carousel-view" data-alfred-carousel tabindex="0" aria-label="Lecture slide carousel. Use the left and right arrow keys to change slides.">
-<figure>
-<img src="/images/teaching/data-structures/alfred/slide-01.jpg" alt="Lecture slide 1: Welcome to the Batcave" loading="eager">
-<figcaption><strong>Welcome to the Batcave</strong><span>Today Batman needs a better archive. Before we name a data structure, let’s find out what has gone wrong.</span></figcaption>
-</figure>
-<div class="lecture-carousel-controls">
-<button type="button" data-slide-previous aria-label="Previous slide">Previous</button>
-<span data-slide-counter aria-live="polite">Slide 1 of 24</span>
-<button type="button" data-slide-next aria-label="Next slide">Next</button>
-</div>
-</div>
-<p><a href="/materials/presentations/Lecture_1_Alfred_Batman_Collector_compressed-1.pdf">Open or download the complete 24-slide lecture (PDF)</a></p>
-</section>
-<script src="/js/alfred-lecture-carousel.js" defer></script>
 </div>
 </details>
 <details class="course-accordion" id="module-1">

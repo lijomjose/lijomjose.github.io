@@ -199,6 +199,10 @@ blockquote {
     background: var(--entry);
 }
 
+.ds-course .course-hero-carousel {
+    margin-top: 0;
+}
+
 .ds-course .lecture-carousel h3 {
     margin-top: 0;
 }

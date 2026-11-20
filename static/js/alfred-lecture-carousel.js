@@ -34,6 +34,7 @@
   const previous = root.querySelector("[data-slide-previous]");
   const next = root.querySelector("[data-slide-next]");
   let current = 0;
+  let timer;
 
   function show(index) {
     current = (index + slides.length) % slides.length;
@@ -47,11 +48,22 @@
     caption.append(title, comment);
     counter.textContent = `Slide ${current + 1} of ${slides.length}`;
   }
-  previous.addEventListener("click", () => show(current - 1));
-  next.addEventListener("click", () => show(current + 1));
+  function restartTimer() {
+    window.clearInterval(timer);
+    timer = window.setInterval(() => show(current + 1), 10000);
+  }
+  previous.addEventListener("click", () => { show(current - 1); restartTimer(); });
+  next.addEventListener("click", () => { show(current + 1); restartTimer(); });
+  root.addEventListener("mouseenter", () => window.clearInterval(timer));
+  root.addEventListener("mouseleave", restartTimer);
+  root.addEventListener("focusin", () => window.clearInterval(timer));
+  root.addEventListener("focusout", (event) => {
+    if (!root.contains(event.relatedTarget)) restartTimer();
+  });
   root.addEventListener("keydown", (event) => {
-    if (event.key === "ArrowLeft") show(current - 1);
-    if (event.key === "ArrowRight") show(current + 1);
+    if (event.key === "ArrowLeft") { show(current - 1); restartTimer(); }
+    if (event.key === "ArrowRight") { show(current + 1); restartTimer(); }
   });
   show(0);
+  restartTimer();
 })();
