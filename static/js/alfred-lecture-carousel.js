@@ -60,6 +60,14 @@
   root.addEventListener("focusout", (event) => {
     if (!root.contains(event.relatedTarget)) restartTimer();
   });
+  const visibilityObserver = new IntersectionObserver(([entry]) => {
+    if (!entry.isIntersecting) {
+      window.clearInterval(timer);
+    } else if (!root.matches(":hover") && !root.contains(document.activeElement)) {
+      restartTimer();
+    }
+  });
+  visibilityObserver.observe(root);
   root.addEventListener("keydown", (event) => {
     if (event.key === "ArrowLeft") { show(current - 1); restartTimer(); }
     if (event.key === "ArrowRight") { show(current + 1); restartTimer(); }

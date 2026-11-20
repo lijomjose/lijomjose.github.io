@@ -281,8 +281,14 @@ blockquote {
 
 .lecture-carousel-view figcaption {
     display: grid;
+    align-content: start;
+    min-height: 9rem;
     gap: 6px;
     padding: 14px 2px 6px;
+}
+
+.course-hero-carousel .lecture-carousel-view figcaption {
+    min-height: 9rem;
 }
 
 .lecture-carousel-controls {
@@ -336,6 +342,10 @@ blockquote {
 
     .lecture-carousel-controls button {
         opacity: 0.94;
+    }
+
+    .course-hero-carousel .lecture-carousel-view figcaption {
+        min-height: 12rem;
     }
 
     .lecture-carousel-controls button {
