@@ -251,6 +251,11 @@ blockquote {
     margin: 18px auto;
 }
 
+.course-hero-carousel .lecture-carousel-view {
+    width: 100%;
+    max-width: none;
+}
+
 .lecture-carousel-view:focus-visible {
     outline: 2px solid var(--primary);
     outline-offset: 6px;
