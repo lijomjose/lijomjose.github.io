@@ -1,19 +1,30 @@
 (() => {
   document.querySelectorAll(".ds-course details").forEach((details) => {
-    let savedScrollY = null;
+    let savedSummaryTop = null;
+    let restoreSequence = 0;
     const summary = details.querySelector(":scope > summary");
     if (!summary) return;
 
-    const rememberPosition = () => { savedScrollY = window.scrollY; };
+    const rememberPosition = () => { savedSummaryTop = summary.getBoundingClientRect().top; };
     summary.addEventListener("pointerdown", rememberPosition);
+    summary.addEventListener("click", rememberPosition, true);
     summary.addEventListener("keydown", (event) => {
       if (event.key === "Enter" || event.key === " ") rememberPosition();
     });
     details.addEventListener("toggle", () => {
-      if (savedScrollY === null) return;
-      const position = savedScrollY;
-      savedScrollY = null;
-      requestAnimationFrame(() => window.scrollTo({ top: position, left: 0, behavior: "instant" }));
+      if (savedSummaryTop === null) return;
+      const targetTop = savedSummaryTop;
+      savedSummaryTop = null;
+      const sequence = ++restoreSequence;
+      const restoreSummaryPosition = () => {
+        if (sequence !== restoreSequence) return;
+        const difference = summary.getBoundingClientRect().top - targetTop;
+        if (Math.abs(difference) > 1) window.scrollBy(0, difference);
+      };
+      requestAnimationFrame(() => {
+        restoreSummaryPosition();
+        requestAnimationFrame(restoreSummaryPosition);
+      });
     });
   });
 
