@@ -1,14 +1,4 @@
 (() => {
-  document.querySelectorAll(".ds-course details").forEach((details) => {
-    const summary = details.querySelector(":scope > summary");
-    if (!summary) return;
-
-    summary.addEventListener("click", (event) => {
-      event.preventDefault();
-      details.open = !details.open;
-    });
-  });
-
   const root = document.querySelector("[data-alfred-carousel]");
   if (!root) return;
 
