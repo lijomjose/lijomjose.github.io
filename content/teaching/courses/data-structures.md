@@ -174,6 +174,7 @@ editable presentations and can be larger downloads.
 </div>
 </section>
 </ul>
+<p class="course-update-note"><strong>To be updated:</strong> this is the introductory trees lecture. More course materials for traversals, binary search trees, threaded trees, AVL trees, and red-black trees will be added as they are ready.</p>
 <p>The chapter continues in class through traversals, binary search trees, threaded trees, and balancing with AVL and red-black trees. The quick-reference section below has the corresponding codebook chapters for revision after these ideas are understood.</p>
 <p><strong>Before moving on:</strong> draw the same tree using array positions and linked nodes. Which relationships are obvious in each representation? Then trace a traversal without looking at its code.</p>
 </div>
@@ -185,6 +186,7 @@ editable presentations and can be larger downloads.
 <p>Which links belong to the world itself, and which merely record how we explored it? Keep that distinction close as we study adjacency matrices and lists, DFS, BFS, connected components, and spanning trees.</p>
 <p><strong>Work from the classroom discussion:</strong> draw a small graph, choose a starting vertex and a neighbour order, and predict the visit sequence. Trace DFS with a stack or recursive calls, then BFS with a queue. Mark a vertex when it is discovered. What happens if we forget that mark?</p>
 <p>The uploaded graph material is in Chapter 10 of the codebook, listed below as quick reference. Use it to check an implementation after you can explain your own traversal.</p>
+<p class="course-update-note"><strong>To be updated:</strong> the graph lecture slides and full learning materials will be added here when they are ready.</p>
 </div>
 </details>
 
