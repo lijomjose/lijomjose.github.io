@@ -113,6 +113,7 @@ blockquote {
     border: 1px solid var(--border);
     border-radius: 8px;
     background: var(--entry);
+    overflow-anchor: none;
 }
 
 .course-accordion summary {
@@ -208,6 +209,7 @@ blockquote {
 }
 
 .lecture-carousel-view {
+    position: relative;
     max-width: 780px;
     margin: 18px auto;
 }
@@ -241,10 +243,14 @@ blockquote {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 14px;
+    position: absolute;
+    inset: 0;
+    height: calc(100% - 72px);
+    pointer-events: none;
 }
 
 .lecture-carousel-controls button {
+    pointer-events: auto;
     min-height: 44px;
     padding: 8px 16px;
     color: var(--primary);
@@ -253,6 +259,23 @@ blockquote {
     border-radius: 6px;
     cursor: pointer;
     font: inherit;
+    opacity: 0;
+    transition: opacity 160ms ease;
+}
+
+.lecture-carousel-view:hover .lecture-carousel-controls button,
+.lecture-carousel-view:focus-within .lecture-carousel-controls button {
+    opacity: 1;
+}
+
+.lecture-carousel-controls [data-slide-counter] {
+    position: absolute;
+    right: 50%;
+    bottom: -62px;
+    transform: translateX(50%);
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: var(--secondary);
 }
 
 .lecture-carousel-controls button:focus-visible {
@@ -265,8 +288,8 @@ blockquote {
         padding: 14px;
     }
 
-    .lecture-carousel-controls {
-        gap: 8px;
+    .lecture-carousel-controls button {
+        opacity: 0.94;
     }
 
     .lecture-carousel-controls button {

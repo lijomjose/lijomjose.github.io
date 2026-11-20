@@ -1,4 +1,22 @@
 (() => {
+  document.querySelectorAll(".ds-course details").forEach((details) => {
+    let savedScrollY = null;
+    const summary = details.querySelector(":scope > summary");
+    if (!summary) return;
+
+    const rememberPosition = () => { savedScrollY = window.scrollY; };
+    summary.addEventListener("pointerdown", rememberPosition);
+    summary.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") rememberPosition();
+    });
+    details.addEventListener("toggle", () => {
+      if (savedScrollY === null) return;
+      const position = savedScrollY;
+      savedScrollY = null;
+      requestAnimationFrame(() => window.scrollTo({ top: position, left: 0, behavior: "instant" }));
+    });
+  });
+
   const root = document.querySelector("[data-alfred-carousel]");
   if (!root) return;
 
