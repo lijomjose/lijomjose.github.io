@@ -256,6 +256,10 @@ blockquote {
     max-width: none;
 }
 
+.main:has(.course-hero-carousel) {
+    max-width: calc(1280px + var(--gap) * 2);
+}
+
 .lecture-carousel-view:focus-visible {
     outline: 2px solid var(--primary);
     outline-offset: 6px;
