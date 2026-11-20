@@ -55,6 +55,12 @@ This result was published in [Journal of Graph Theory (2025)](https://onlinelibr
 ## Current Work & Open Questions
 I am currently in an exploratory phase.
 
+### Exploratory Interest: Intuition-First Data Structures Teaching
+
+Alongside my research in graph theory, I am exploring how to teach data structures through a story that gives each idea a reason to exist. In my course, Caitlyn follows clues through an unfamiliar world; learners make predictions, trace what changes, and meet a formal structure only after they have felt the problem it helps solve.
+
+This is a pedagogical interest, not yet a defined research project. I am curious about how narrative, prediction, and visible state tracing might help students build intuition and explain their design choices. I have not yet conducted a study or drawn conclusions about their effectiveness. For now, I am developing the teaching materials and considering what questions could be investigated carefully.
+
 I have been examining problems related to wireless sensor networks, particularly lifetime and resource allocation questions. These problems are interesting to me because they translate naturally into structural graph-theoretic formulations.
 
 At present, this direction is still in its early stages and has not yet developed into a fully defined research program. Nevertheless, I find the underlying question quite compelling.
